@@ -1,4 +1,4 @@
-from chocolate import Fabrica
+from fabrica import Fabrica
 
 
 fabrica = Fabrica()
