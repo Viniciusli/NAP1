@@ -5,3 +5,6 @@ class Figura:
     def __init__(self, x: float, y: float) -> None:
         self.coordenadaX = x
         self.coordenadaY = y
+
+    def imprimi(self):
+        print(f"Coordendas: {self.coordenadaX}, {self.coordenadaY}")
