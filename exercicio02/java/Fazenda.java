@@ -13,7 +13,7 @@ public class Fazenda {
 
   public void imprimi() {
     System.out.println("Fazenda: " + this.nome);
-    System.out.println("Area: " + this.area + "a");
+    System.out.println("Area: " + this.area + "hectares");
     System.out.println("Proprietario: " + this.propietario);
   }
 }
