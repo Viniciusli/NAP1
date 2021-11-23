@@ -8,7 +8,8 @@ public class Figura {
         this.coordX = x;
         this.coordY = y;
     }
+
     public void imprimi() {
-    System.out.println("Coordenadas_Figura : (%f, %f)%n ", this.coordX, this.coordY);
-   }       
+        System.out.printf("Coordenadas_Figura : (%f, %f)%n ", this.coordX, this.coordY);
+    }
 }
