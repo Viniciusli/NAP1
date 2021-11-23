@@ -16,6 +16,18 @@ public class Fabrica {
         System.out.println("3) extrair_chocolate()");
     }
 
+    public int getQuantidadeDeChocolate() {
+        return this.chocolate;
+    }
+
+    protected void setQuantidadeDeChocolate(int quantidade) {
+        this.chocolate += quantidade;
+    }
+
+    public void status() {
+        System.out.println("Chocolate produzido: " + getQuantidadeDeChocolate());
+    }
+
     public void colher() {
         System.out.println("O cacau está sendo colhido");
         this.quatidadeDeCacau += 10;
@@ -28,6 +40,14 @@ public class Fabrica {
             System.out.println("Grãos extraidos: " + this.quatidadeDeGraos);
         } else {
             System.out.println("Colha cacau para extrair grãos");
+        }
+    }
+
+    public void extrairChocolate() {
+        if (getQuantidadeDeChocolate() > 0) {
+            int quantidadeDeChocolate = this.quatidadeDeGraos * 5;
+            setQuantidadeDeChocolate(quantidadeDeChocolate);
+            System.out.println(getQuantidadeDeChocolate() + "gramas de chocolate produzidos");
         }
     }
 }

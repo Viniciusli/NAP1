@@ -9,6 +9,12 @@ class Fabrica:
         2) extrair_graos()
         3) extrair_chocolate()""")
 
+    def get_quantidade_de_chocolate(self):
+        return self.chocolate
+
+    def set_quantidade_de_chocolate(self, quantidade):
+        self.chocolate += quantidade
+
     def colher(self):
         print("O cacau está sendo colhido")
         self.quantidade_de_cacau += 10
@@ -23,5 +29,7 @@ class Fabrica:
 
     def extrair_chocolate(self):
         if self.quantidade_de_graos > 0:
-            self.chocolate = self.quantidade_de_graos * 5
-            print(f"{self.chocolate} gramas de chocolate produzidos")
+            chocolate = self.quantidade_de_graos * 5
+            self.set_quantidade_de_chocolate(chocolate)
+            print(
+                f"{self.get_quantidade_de_chocolate()} gramas de chocolate produzidos")
