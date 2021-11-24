@@ -1,9 +1,9 @@
 package exercicio01.java;
 
 public class Fabrica {
-    int quatidadeDeCacau;
-    int quatidadeDeGraos;
-    int chocolate;
+    public int quatidadeDeCacau;
+    public int quatidadeDeGraos;
+    public int chocolate;
 
     public Fabrica() {
         this.quatidadeDeCacau = 0;
@@ -39,7 +39,7 @@ public class Fabrica {
             this.quatidadeDeGraos += 20;
             System.out.println("Grãos extraidos: " + this.quatidadeDeGraos);
         } else {
-            System.out.println("Colha cacau para extrair grãos");
+            System.out.println("Fruto com baixa quatidade de grãos");
         }
     }
 
