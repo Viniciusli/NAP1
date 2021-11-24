@@ -35,9 +35,10 @@ public class Fazenda2 {
         if (this.area > 0) {
             System.out.println("Área adubada");
             setAdubado(true);
+        } else {
+            System.out.println("É preciso ter áreas para plantar");
+            setAdubado(false);
         }
-        System.out.println("É preciso ter áreas para plantar");
-        setAdubado(false);
     }
 
     public void plantar() {
@@ -49,7 +50,7 @@ public class Fazenda2 {
 
     public void imprimi() {
         System.out.println("Fazenda: " + this.nome);
-        System.out.println("Area: " + this.area + "a");
+        System.out.println("Area: " + this.area + " hectares");
         System.out.println("Proprietario: " + this.propietario);
         System.out.println("Produto: " + this.produto);
         System.out.print("Status da terra: ");
@@ -62,29 +63,19 @@ public class Fazenda2 {
 }
 
 /*
-package atividad_ex03;
-public class Fazenda {
-    public String nome;
-    public double area;
-    public String propietario;
-
-  public Fazenda(String nome, double area, String propietario) {
-    this.nome = nome;
-    this.area = area;
-    this.propietario = propietario;
-  }
-  
-   public void plantar () {  //metodo PLANTAR
-    System.out.println("Nova plantação adicionada a Fazenda " + this.nome);
-}
-   public void adubar () {   //metodo ADUBAR
-    System.out.println("Adubando a nova plantação da fazenda " + this.nome);
-   }
-   
-   public void imprimi() { //para não ficar vazio criamos o metodo IMPRIMI
-    System.out.println("Fazenda: " + this.nome);
-    System.out.println("Area: " + this.area + " Hectares");
-    System.out.println("Proprietario: \n" + this.propietario);
-  }
-} 
-    */
+ * package atividad_ex03; public class Fazenda { public String nome; public
+ * double area; public String propietario;
+ * 
+ * public Fazenda(String nome, double area, String propietario) { this.nome =
+ * nome; this.area = area; this.propietario = propietario; }
+ * 
+ * public void plantar () { //metodo PLANTAR
+ * System.out.println("Nova plantação adicionada a Fazenda " + this.nome); }
+ * public void adubar () { //metodo ADUBAR
+ * System.out.println("Adubando a nova plantação da fazenda " + this.nome); }
+ * 
+ * public void imprimi() { //para não ficar vazio criamos o metodo IMPRIMI
+ * System.out.println("Fazenda: " + this.nome); System.out.println("Area: " +
+ * this.area + " Hectares"); System.out.println("Proprietario: \n" +
+ * this.propietario); } }
+ */
