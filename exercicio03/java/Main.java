@@ -15,5 +15,7 @@ public class Main {
     fzd.imprimi();
     fzd.adubar();
     fzd.plantar();
+    System.out.println("\n");
+    fzd.imprimi();
   }
 }
