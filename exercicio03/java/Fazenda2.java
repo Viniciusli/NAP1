@@ -60,3 +60,31 @@ public class Fazenda2 {
         }
     }
 }
+
+/*
+package atividad_ex03;
+public class Fazenda {
+    public String nome;
+    public double area;
+    public String propietario;
+
+  public Fazenda(String nome, double area, String propietario) {
+    this.nome = nome;
+    this.area = area;
+    this.propietario = propietario;
+  }
+  
+   public void plantar () {  //metodo PLANTAR
+    System.out.println("Nova plantação adicionada a Fazenda " + this.nome);
+}
+   public void adubar () {   //metodo ADUBAR
+    System.out.println("Adubando a nova plantação da fazenda " + this.nome);
+   }
+   
+   public void imprimi() { //para não ficar vazio criamos o metodo IMPRIMI
+    System.out.println("Fazenda: " + this.nome);
+    System.out.println("Area: " + this.area + " Hectares");
+    System.out.println("Proprietario: \n" + this.propietario);
+  }
+} 
+    */
