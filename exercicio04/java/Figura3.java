@@ -31,6 +31,8 @@ public class Figura3 {
             System.out.println("A figura está no segundo quadrante");
         } else if (this.coordX < 0 && this.coordY < 0) {
             System.out.println("A figura está no terceiro quadrante");
+        } else if (this.coordX == 0 && this.coordY == 0) {
+            System.out.println("A figura está sobre a origem do eixo do plano cartesiano");
         } else {
             System.out.println("A figura está no quarto quadrante");
         }
