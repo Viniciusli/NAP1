@@ -20,5 +20,9 @@ public class Main {
         f_01.mover();
         System.out.println("");
         f_01.quadrante();
+
+        f_01.mover();
+        System.out.println("");
+        f_01.quadrante();
     }
 }

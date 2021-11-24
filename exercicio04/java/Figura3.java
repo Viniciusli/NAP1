@@ -20,7 +20,7 @@ public class Figura3 {
     public void mover() {
         this.coordX += 2;
         this.coordY += 2;
-        System.out.println("Figura movida\nNovas coordenadas:");
+        System.out.println("Figura movida\nNovas coordenadas: ");
         this.imprimi();
     }
 
