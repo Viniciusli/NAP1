@@ -44,10 +44,10 @@ public class Fabrica {
     }
 
     public void extrairChocolate() {
-        if (getQuantidadeDeChocolate() > 0) {
+        if (this.quatidadeDeGraos > 0) {
             int quantidadeDeChocolate = this.quatidadeDeGraos * 5;
             setQuantidadeDeChocolate(quantidadeDeChocolate);
-            System.out.println(getQuantidadeDeChocolate() + "gramas de chocolate produzidos");
+            System.out.println(getQuantidadeDeChocolate() + " gramas de chocolate produzidos");
         }
     }
 }

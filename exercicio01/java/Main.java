@@ -6,6 +6,7 @@ public class Main {
         Fabrica fabrica = new Fabrica();
         fabrica.colher();
         fabrica.extrairGraos();
+        fabrica.extrairChocolate();
     }
 
 }
